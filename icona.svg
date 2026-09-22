@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="AUVITEC">
+  <!-- Icona AUVITEC: la «a» minuscola col punto staccato. La lettera e' un tracciato,
+       non testo: nella scheda del browser si disegna identica su ogni PC, anche dove
+       Segoe UI non esiste. Geometria presa dal wordmark (Segoe UI Black, corpo 290,
+       linea di base 352, centrata su x=208) - stessa figura dei simboli di logo.html. -->
+  <rect width="512" height="512" rx="112" fill="#0B2A4A"/>
+  <g transform="translate(-4,-23.5)">
+  <path fill="#ffffff" d="M221.5,285.6L201.1,288.4C190.9,290.1 185.8,294.9 185.8,302.7 185.8,306.7 187.1,309.9 189.6,312.5 192.1,315 195.7,316.3 200.3,316.3 206.6,316.3 211.7,314 215.6,309.2 219.6,304.5 221.5,298.5 221.5,291.1L221.5,285.6z M206.4,203.5C231,203.5 248.9,208.7 260,219.2 271.1,229.8 276.6,247.4 276.6,272L276.6,352 221.5,352 221.5,329.9 221,329.9C211.3,347 196.6,355.5 176.8,355.5 163.1,355.5 152.4,351.5 144.6,343.4 136.9,335.2 133,324.4 133,310.8 133,282.3 150.5,265.8 185.6,261.2L221.5,256.6C221.5,251.8 219.4,248 215.2,244.9 210.9,241.9 205.2,240.4 198,240.4 181.8,240.4 164.6,245 146.6,254.3L146.6,215.1C154.5,211.7 164.3,208.9 176.1,206.7 187.9,204.5 198,203.5 206.4,203.5z"/>
+  <circle cx="358" cy="324" r="28" fill="#C8452D"/>
+  </g>
+</svg>

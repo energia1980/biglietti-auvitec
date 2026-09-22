@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Marco Cassiano · Marco Cassiano</title>
+<meta name="description" content="Per. Ind. Elettrotecnica e Automazione · Marco Cassiano">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0B2A4A">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Marco Cassiano">
+<meta property="og:description" content="Per. Ind. Elettrotecnica e Automazione · Marco Cassiano">
+<meta property="og:url" content="https://card.auvitec.it/marco.cassiano/professionista/">
+<meta property="og:image" content="https://card.auvitec.it/anteprima.png">
+<link rel="icon" href="../../icona.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="Marco Cassiano">
+<link rel="preload" href="/caratteri/inter.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:"Inter";src:url("/caratteri/inter.woff2") format("woff2");font-weight:100 900;font-display:swap;}
+:root{
+  --navy:#0B2A4A;--navy-fondo:#071B30;--terra:#C8452D;--terra-chiaro:#E4694E;--terra-velo:#FBEAE5;
+  --blu:#1C5A93;--blu-velo:#E7F0FA;--verde:#1F7A4D;--verde-velo:#E4F2EA;--ambra:#8A5902;--ambra-velo:#FAF0DB;
+  --viola:#5B3F9E;--viola-velo:#EEE9F8;
+  --ink:#0E1B26;--muto:#5E7185;--linea:#E3E9F0;--fondo:#E6ECF2;--carta:#FFFFFF;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--fondo:#050F1A;}
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{margin:0;background:var(--fondo);color:var(--ink);font-family:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:17px;line-height:1.45;}
+.pagina{max-width:500px;margin:0 auto;padding:16px 16px 40px;}
+.card{background:var(--carta);border-radius:24px;overflow:hidden;box-shadow:0 18px 50px rgba(7,27,48,.18);}
+.testa{position:relative;background:linear-gradient(135deg,var(--navy) 0%,var(--navy-fondo) 100%);padding:22px 24px 64px;color:#fff;}
+.testa::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:40px;background:var(--carta);border-radius:40px 40px 0 0;}
+.wm{font-weight:800;letter-spacing:.13em;font-size:26px;line-height:1;color:#fff;text-decoration:none;}
+.wm .dot{color:var(--terra-chiaro);}
+.sottotesta{font-size:16.5px;color:#A9C1D8;margin-top:10px;font-weight:500;}
+.segno{position:absolute;right:24px;bottom:14px;z-index:2;width:88px;height:88px;border-radius:22px;background:var(--navy);border:4px solid var(--carta);display:grid;place-items:center;box-shadow:0 8px 20px rgba(7,27,48,.25);}
+.segno svg{width:100%;height:100%;border-radius:18px;}
+.segno .ini{font-weight:800;font-size:32px;letter-spacing:.04em;color:#fff;}
+.corpo{padding:4px 24px 24px;}
+h1{margin:0;font-size:31px;line-height:1.15;color:var(--navy);font-weight:800;letter-spacing:-.01em;}
+.ruolo{margin:6px 0 0;font-size:19px;color:var(--ink);font-weight:600;}
+.azienda{margin:2px 0 0;font-size:17px;color:var(--muto);}
+.azioni{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 0 12px;}
+.az{display:flex;align-items:center;justify-content:center;gap:10px;padding:14px 8px;border-radius:16px;text-decoration:none;font-size:17.5px;font-weight:700;}
+.az svg{width:26px;height:26px;fill:currentColor;}
+.az.tel{background:var(--verde-velo);color:var(--verde);}
+.az.wa{background:#DDF5E6;color:#137A3D;}
+.az.mail{background:var(--blu-velo);color:var(--blu);}
+.az.web{background:var(--viola-velo);color:var(--viola);}
+.salva{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:17px;border:0;border-radius:16px;background:var(--terra);color:#fff;font:inherit;font-size:19px;font-weight:700;text-decoration:none;cursor:pointer;box-shadow:0 8px 20px rgba(200,69,45,.28);}
+.salva svg{width:24px;height:24px;fill:#fff;}
+.salva:active{transform:translateY(1px);}
+.voci{list-style:none;margin:22px 0 0;padding:0;}
+.voci li{display:flex;gap:14px;align-items:flex-start;padding:13px 0;border-top:1px solid var(--linea);}
+.voci li:first-child{border-top:0;}
+.chip{flex:none;width:42px;height:42px;border-radius:12px;display:grid;place-items:center;}
+.chip svg{width:22px;height:22px;fill:currentColor;}
+.c-verde{background:var(--verde-velo);color:var(--verde);}
+.c-blu{background:var(--blu-velo);color:var(--blu);}
+.c-terra{background:var(--terra-velo);color:var(--terra);}
+.c-viola{background:var(--viola-velo);color:var(--viola);}
+.c-ambra{background:var(--ambra-velo);color:var(--ambra);}
+.c-navy{background:#E3EAF2;color:var(--navy);}
+.voce{min-width:0;flex:1;}
+.etic{display:block;font-size:16.5px;color:var(--muto);font-weight:500;}
+.val{display:block;font-size:18px;color:var(--ink);font-weight:600;text-decoration:none;overflow-wrap:anywhere;}
+a.val{color:var(--blu);}
+.qual{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0;padding:0;list-style:none;}
+.qual li{background:var(--ambra-velo);color:var(--ambra);border:1px solid #E9CE95;border-radius:999px;padding:7px 14px;font-size:16.5px;font-weight:600;}
+.fatt{margin:22px 0 0;background:#F2F6FA;border:1px solid var(--linea);border-radius:18px;padding:16px 18px;}
+.fatt h2{margin:0 0 8px;font-size:17px;color:var(--navy);font-weight:800;letter-spacing:.02em;}
+.riga{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 0;border-top:1px solid var(--linea);}
+.riga:first-of-type{border-top:0;}
+.riga .etic{font-size:16.5px;}
+.riga .val{font-size:17.5px;}
+.copia{flex:none;display:flex;align-items:center;gap:6px;border:1px solid #BCD3EC;background:#fff;color:var(--blu);border-radius:10px;padding:8px 12px;font:inherit;font-size:16.5px;font-weight:600;cursor:pointer;}
+.copia svg{width:18px;height:18px;fill:currentColor;}
+.copia.ok{background:var(--verde-velo);border-color:#B0D6C2;color:var(--verde);}
+.piede{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px;}
+@media (max-width:420px){
+  .pagina{padding:10px 10px 32px;}
+  .corpo{padding:4px 18px 20px;}
+  .testa{padding-left:18px;padding-right:18px;}
+  .segno{right:18px;}
+  .piede{grid-template-columns:1fr;}
+  .copia span{display:none;}
+  .copia{padding:10px;}
+}
+.bottone{display:flex;align-items:center;justify-content:center;gap:8px;padding:15px;border-radius:16px;border:2px solid var(--navy);background:#fff;color:var(--navy);font:inherit;font-size:17.5px;font-weight:700;cursor:pointer;text-decoration:none;}
+.bottone svg{width:22px;height:22px;fill:currentColor;}
+.firma{text-align:center;color:var(--muto);font-size:16.5px;margin-top:20px;}
+.firma .wm{font-size:17px;color:var(--navy);}
+.firma .wm .dot{color:var(--terra);}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .firma{color:#A9C1D8;} :root:not([data-theme="light"]) .firma .wm{color:#fff;} }
+.velo{position:fixed;inset:0;background:rgba(7,27,48,.92);display:none;align-items:center;justify-content:center;padding:16px;z-index:10;}
+.velo.aperto{display:flex;}
+.qrbox{background:#fff;border-radius:24px;padding:24px;width:100%;max-width:420px;text-align:center;}
+.qrbox svg{width:100%;height:auto;display:block;}
+.qrbox p{margin:14px 0 0;font-size:18px;font-weight:700;color:var(--navy);}
+.qrbox small{display:block;font-size:16.5px;color:var(--muto);margin-top:4px;overflow-wrap:anywhere;}
+.chiudi{margin-top:16px;width:100%;}
+.avviso{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(120px);background:var(--navy);color:#fff;padding:12px 20px;border-radius:14px;font-size:17px;font-weight:600;transition:transform .25s;z-index:20;}
+.avviso.su{transform:translateX(-50%) translateY(0);}
+</style>
+</head>
+<body data-url="https://card.auvitec.it/marco.cassiano/professionista/">
+<main class="pagina">
+  <article class="card">
+    <header class="testa"><div class="wm" style="letter-spacing:.04em">Per. Ind.</div><div class="sottotesta">Libero professionista</div><div class="segno"><span class="ini">MC</span></div></header>
+    <div class="corpo">
+      <h1>Marco Cassiano</h1>
+      <p class="ruolo">Per. Ind. Elettrotecnica e Automazione</p>
+      
+      <nav class="azioni" aria-label="Contatta"><a class="az tel" href="tel:+393409331201"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg>Chiama</a><a class="az wa" href="https://wa.me/393409331201"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.3-.5 0-1 .2-3.2-.7-2.7-1.1-4.4-3.9-4.5-4.1-.1-.2-1.1-1.4-1.1-2.7s.7-1.9.9-2.2c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.2z"/></svg>WhatsApp</a><a class="az mail" href="mailto:cassiano.marco@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg>Email</a><a class="az web" href="https://www.linkedin.com/in/marco-cassiano-37796844/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zM8.3 18.3H5.7V9.8h2.6zM7 8.6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm11.3 9.7h-2.6v-4.1c0-1 0-2.3-1.4-2.3s-1.6 1.1-1.6 2.2v4.2H10.1V9.8h2.5V11c.4-.7 1.2-1.4 2.5-1.4 2.7 0 3.2 1.8 3.2 4.1z"/></svg>LinkedIn</a></nav>
+      <a class="salva" href="marco-cassiano.vcf" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4zm-9-2V7H4v3H1v2h3v3h2v-3h3v-2zm9 4c-2.7 0-8 1.3-8 4v2h16v-2c0-2.7-5.3-4-8-4z"/></svg>Salva nella rubrica</a>
+      <ul class="voci"><li><span class="chip c-terra"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.3 7 13 7 13s7-7.7 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg></span><span class="voce"><span class="etic">Sede legale</span><a class="val" href="https://www.google.com/maps/search/?api=1&query=Via+di+Quarto+Peperino%2C+38+00188+Roma">Via di Quarto Peperino, 38, 00188 Roma (RM)</a></span></li><li><span class="chip c-verde"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 1H8C6.3 1 5 2.3 5 4v16c0 1.7 1.3 3 3 3h8c1.7 0 3-1.3 3-3V4c0-1.7-1.3-3-3-3zm-4 21c-.8 0-1.5-.7-1.5-1.5S11.2 19 12 19s1.5.7 1.5 1.5S12.8 22 12 22zm5-4H7V4h10z"/></svg></span><span class="voce"><span class="etic">Cellulare</span><a class="val" href="tel:+393409331201">+39 340 933 1201</a></span></li><li><span class="chip c-blu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg></span><span class="voce"><span class="etic">Email</span><a class="val" href="mailto:cassiano.marco@gmail.com">cassiano.marco@gmail.com</a></span></li><li><span class="chip c-navy"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zM8.3 18.3H5.7V9.8h2.6zM7 8.6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm11.3 9.7h-2.6v-4.1c0-1 0-2.3-1.4-2.3s-1.6 1.1-1.6 2.2v4.2H10.1V9.8h2.5V11c.4-.7 1.2-1.4 2.5-1.4 2.7 0 3.2 1.8 3.2 4.1z"/></svg></span><span class="voce"><span class="etic">LinkedIn</span><a class="val" href="https://www.linkedin.com/in/marco-cassiano-37796844/">Profilo di Marco Cassiano</a></span></li></ul>
+      <ul class="qual" aria-label="Qualifiche"><li>Professionista Antincendio</li><li>Docente ANIE Sicurezza</li><li>Membro UNI/CT 034/GL 04</li></ul>
+      <section class="fatt" aria-label="Dati di fatturazione">
+        <h2>Dati per la fattura elettronica</h2>
+        <div class="riga"><span class="voce"><span class="etic">Partita IVA</span><span class="val">11847381008</span></span><button class="copia" type="button" data-copia="11847381008"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12zm3 4H8a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 16H8V7h11z"/></svg><span>Copia</span></button></div><div class="riga"><span class="voce"><span class="etic">Codice fiscale</span><span class="val">CSSMRC80H28L219W</span></span><button class="copia" type="button" data-copia="CSSMRC80H28L219W"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12zm3 4H8a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 16H8V7h11z"/></svg><span>Copia</span></button></div><div class="riga"><span class="voce"><span class="etic">Codice destinatario</span><span class="val">M5UXCR1</span></span><button class="copia" type="button" data-copia="M5UXCR1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12zm3 4H8a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 16H8V7h11z"/></svg><span>Copia</span></button></div><div class="riga"><span class="voce"><span class="etic">PEC</span><span class="val">marco.cassiano@pec.perind.it</span></span><button class="copia" type="button" data-copia="marco.cassiano@pec.perind.it"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12zm3 4H8a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 16H8V7h11z"/></svg><span>Copia</span></button></div>
+      </section>
+      <div class="piede">
+        <button class="bottone" id="condividi" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16c-.8 0-1.5.3-2 .8l-7.1-4.1a3 3 0 0 0 0-1.4L16 7.2A3 3 0 1 0 15 5c0 .2 0 .5.1.7L8 9.8a3 3 0 1 0 0 4.4l7.1 4.2-.1.6a3 3 0 1 0 3-3z"/></svg>Condividi</button>
+        <button class="bottone" id="mostraqr" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11h8V3H3zm2-6h4v4H5zm8-2v8h8V3zm6 6h-4V5h4zM3 21h8v-8H3zm2-6h4v4H5zm13 0h-2v-2h-3v3h2v2h-2v3h2v-2h2v2h3v-3h-2zm1-2h2v2h-2zm-6 6h2v2h-2z"/></svg>Mostra il QR</button>
+      </div>
+    </div>
+  </article>
+  
+</main>
+<div class="velo" id="velo" role="dialog" aria-label="Codice QR">
+  <div class="qrbox">
+    <svg width="370" height="370" class="segno"><g transform="scale(10)"><path fill="#fff" d="M0 0h37v37h-37z"/><path class="qrline" stroke="#0b2a4a" d="M2 2.5h7m1 0h2m1 0h2m5 0h4m1 0h1m2 0h7m-33 1h1m5 0h1m1 0h1m1 0h2m2 0h1m1 0h2m2 0h2m1 0h1m2 0h1m5 0h1m-33 1h1m1 0h3m1 0h1m6 0h3m2 0h1m1 0h1m2 0h2m1 0h1m1 0h3m1 0h1m-33 1h1m1 0h3m1 0h1m1 0h2m7 0h3m2 0h2m2 0h1m1 0h3m1 0h1m-33 1h1m1 0h3m1 0h1m6 0h1m2 0h1m2 0h1m2 0h1m1 0h1m1 0h1m1 0h3m1 0h1m-33 1h1m5 0h1m2 0h2m1 0h1m1 0h3m2 0h1m2 0h1m1 0h1m1 0h1m5 0h1m-33 1h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7m-25 1h2m2 0h1m1 0h5m3 0h3m-25 1h1m1 0h2m1 0h3m4 0h1m1 0h6m1 0h1m4 0h1m2 0h1m1 0h2m-33 1h1m2 0h1m1 0h1m1 0h1m4 0h2m2 0h2m1 0h1m1 0h4m1 0h2m1 0h4m-30 1h2m1 0h1m1 0h1m2 0h1m1 0h1m2 0h1m1 0h1m2 0h1m1 0h1m1 0h1m1 0h3m1 0h2m-32 1h1m5 0h1m2 0h3m2 0h2m1 0h1m5 0h1m1 0h2m1 0h1m2 0h1m-32 1h3m2 0h1m1 0h2m1 0h2m1 0h3m1 0h1m1 0h1m1 0h1m1 0h2m1 0h3m-29 1h1m1 0h2m2 0h1m1 0h2m2 0h2m2 0h1m1 0h1m4 0h2m3 0h1m1 0h1m-32 1h5m1 0h2m1 0h1m2 0h3m3 0h3m5 0h2m1 0h2m-30 1h2m1 0h2m1 0h4m3 0h2m2 0h2m1 0h3m1 0h2m1 0h3m-30 1h1m1 0h4m4 0h1m1 0h1m6 0h4m1 0h2m1 0h3m-29 1h1m2 0h1m1 0h1m1 0h2m2 0h3m4 0h2m1 0h4m1 0h2m2 0h1m-31 1h1m3 0h3m2 0h1m2 0h2m2 0h1m1 0h2m2 0h1m2 0h2m1 0h2m-32 1h2m2 0h2m1 0h5m3 0h1m1 0h1m4 0h1m3 0h1m1 0h1m2 0h2m-33 1h4m1 0h2m4 0h2m3 0h1m2 0h3m7 0h3m-32 1h1m1 0h2m1 0h1m1 0h1m1 0h5m1 0h7m1 0h1m1 0h2m5 0h1m-31 1h2m2 0h1m1 0h1m5 0h2m2 0h1m2 0h4m1 0h1m1 0h1m2 0h2m-32 1h1m2 0h2m3 0h2m2 0h3m2 0h2m2 0h3m1 0h2m1 0h1m1 0h2m-33 1h1m1 0h1m2 0h2m1 0h1m1 0h1m2 0h2m1 0h2m1 0h1m2 0h7m2 0h1m-24 1h1m3 0h2m1 0h2m2 0h1m1 0h1m2 0h1m3 0h2m-30 1h7m1 0h6m3 0h3m1 0h1m1 0h2m1 0h1m1 0h1m-29 1h1m5 0h1m1 0h1m1 0h1m2 0h3m1 0h2m1 0h5m3 0h5m-33 1h1m1 0h3m1 0h1m2 0h1m2 0h2m2 0h3m1 0h9m1 0h1m1 0h1m-33 1h1m1 0h3m1 0h1m1 0h2m2 0h1m3 0h2m2 0h4m3 0h1m4 0h1m-33 1h1m1 0h3m1 0h1m1 0h3m4 0h2m4 0h1m2 0h1m1 0h2m1 0h2m-31 1h1m5 0h1m2 0h2m1 0h1m1 0h1m2 0h3m2 0h3m1 0h3m3 0h1m-33 1h7m1 0h2m2 0h1m3 0h3m1 0h2m1 0h1m1 0h2m1 0h1m1 0h1"/></g></svg>
+    <p>Inquadra per salvare il contatto</p>
+    <small>card.auvitec.it/marco.cassiano/professionista/</small>
+    <button class="bottone chiudi" id="chiudi" type="button">Chiudi</button>
+  </div>
+</div>
+<div class="avviso" id="avviso" role="status" aria-live="polite"></div>
+<script>
+(function(){
+  var avviso=document.getElementById('avviso');
+  function dimmi(t){avviso.textContent=t;avviso.classList.add('su');setTimeout(function(){avviso.classList.remove('su');},1800);}
+  function copia(testo,btn){
+    var fatto=function(){if(btn){var v=btn.innerHTML;btn.classList.add('ok');btn.lastChild.textContent='Copiato';setTimeout(function(){btn.classList.remove('ok');btn.innerHTML=v;},1600);}else{dimmi('Collegamento copiato');}};
+    if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(testo).then(fatto,function(){vecchio(testo);fatto();});}
+    else{vecchio(testo);fatto();}
+  }
+  function vecchio(t){var a=document.createElement('textarea');a.value=t;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();try{document.execCommand('copy');}catch(e){}document.body.removeChild(a);}
+  document.querySelectorAll('[data-copia]').forEach(function(b){b.addEventListener('click',function(){copia(b.getAttribute('data-copia'),b);});});
+  var url=document.body.getAttribute('data-url'), titolo=document.title;
+  document.getElementById('condividi').addEventListener('click',function(){
+    if(navigator.share){navigator.share({title:titolo,url:url}).catch(function(){});}
+    else{copia(url,null);}
+  });
+  var velo=document.getElementById('velo');
+  document.getElementById('mostraqr').addEventListener('click',function(){velo.classList.add('aperto');});
+  velo.addEventListener('click',function(ev){if(ev.target===velo||ev.target.id==='chiudi')velo.classList.remove('aperto');});
+  document.addEventListener('keydown',function(ev){if(ev.key==='Escape')velo.classList.remove('aperto');});
+})();
+</script>
+</body>
+</html>
