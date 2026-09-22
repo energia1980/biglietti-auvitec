@@ -1,0 +1,33 @@
+{
+  "id": "/marco.cassiano/professionista/",
+  "name": "Marco Cassiano · Per. Ind.",
+  "short_name": "Card Perito",
+  "description": "Per. Ind. Elettrotecnica e Automazione",
+  "lang": "it",
+  "start_url": "/marco.cassiano/professionista/index.html",
+  "scope": "/marco.cassiano/professionista/index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#E6ECF2",
+  "theme_color": "#C8452D",
+  "icons": [
+    {
+      "src": "icona-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icona-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icona-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
